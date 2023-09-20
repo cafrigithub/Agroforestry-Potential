@@ -88,7 +88,7 @@
     border: 1px solid black;
    
   tr td {
-      width: 0
+      width: 0;
       white-space: nowrap;
 
     }

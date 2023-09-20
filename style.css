@@ -19,7 +19,7 @@
     position: absolute;
     right: 10px;
     z-index: 1;
-    margin: 100px 500px 0px;
+    margin: 100px 1500px 0px;
     
 
     /* text-align: center; */
@@ -86,7 +86,7 @@
 
   .table, td, th {
     border: 1px solid black;
-   
+    white-space: nowrap;
   tr td {
       width: 0;
       white-space: nowrap;

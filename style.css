@@ -19,7 +19,7 @@
     position: absolute;
     right: 10px;
     z-index: 1;
-    margin: 0px 250px 40px;
+    margin: 0 250px 200px;
     
 
     /* text-align: center; */
@@ -86,12 +86,12 @@
 
   .table, td, th {
     border: 1px solid black;
-    white-space: nowrap;
+   
   tr td {
-      width: 0;
-      white-space: nowrap;
+            width: 0%;
+            white-space: nowrap;
 
-    }
+        }
   }
   
   

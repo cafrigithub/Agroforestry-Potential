@@ -19,7 +19,7 @@
     position: absolute;
     right: 10px;
     z-index: 1;
-    margin: 0 200px 200px;
+    margin: 0 100px 200px;
     
 
     /* text-align: center; */
@@ -88,7 +88,8 @@
     border: 1px solid black;
    
   tr td {
-            white-space: wrap;
+      width: 0
+            white-space: nowrap;
 
     }
   }

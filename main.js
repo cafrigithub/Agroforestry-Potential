@@ -36,16 +36,16 @@ var map = new ol.Map({
 var extSource = new ol.source.Vector({
     format : new ol.format.GeoJSON(),
     // url:'geom.geojson'
-    url : 'assets/AssamAgfData3.geojson'
+    url : 'assets/AssamAgfData333.geojson'
     // url : 'http://localhost:8080/geoserver/tiger/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=tiger%3Apoly_landmarks&maxFeatures=50&outputFormat=application%2Fjson'
 })
 
 var styles = function(extLayer,resolution) {
-    if (extLayer.get('Agroforest') < 400) {color = 'rgb(255, 157, 0, 0.5)' ;}
-        else if (extLayer.get('Agroforest') >= 401 && extLayer.get('Agroforest') <= 800){color ='rgb(255, 251, 0, 0.5)';}
-        else if (extLayer.get('Agroforest') >= 801 && extLayer.get('Agroforest')<= 1200){color ='rgb(212, 255, 0, 0.5)';}
-        else if (extLayer.get('Agroforest') >= 1201 && extLayer.get('Agroforest')<= 1600){color ='rgb(132, 255, 0, 0.5)';}
-        else if (extLayer.get('Agroforest') >= 1601 && extLayer.get('Agroforest')<= 2000){color ='rgb(0, 255, 102, 0.5)';}
+    if (extLayer.get('Area_sqkm2') < 400) {color = 'rgb(255, 157, 0, 0.5)' ;}
+        else if (extLayer.get('Area_sqkm2') >= 401 && extLayer.get('Area_sqkm2') <= 800){color ='rgb(255, 251, 0, 0.5)';}
+        else if (extLayer.get('Area_sqkm2') >= 801 && extLayer.get('Area_sqkm2')<= 1200){color ='rgb(212, 255, 0, 0.5)';}
+        else if (extLayer.get('Area_sqkm2') >= 1201 && extLayer.get('Area_sqkm2')<= 1600){color ='rgb(132, 255, 0, 0.5)';}
+        else if (extLayer.get('Area_sqkm2') >= 1601 && extLayer.get('Area_sqkm2')<= 2000){color ='rgb(0, 255, 102, 0.5)';}
         else {color = '#fff5eb';}
 
        return  [

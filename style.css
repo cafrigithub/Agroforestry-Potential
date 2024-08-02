@@ -1,5 +1,5 @@
 
-.map{
+.map {
     position: relative;
     width: 80%;
     height: 500px;
@@ -16,7 +16,7 @@
   margin-top: 10px; /* adjust the top margin */
 }
 
-.add_text2{
+.add_text2 {
   padding: 70px 0;
   text-align: left;
   border:3px solid green;
@@ -47,12 +47,7 @@
 
     /* text-align: center; */
 }
-.sticky {
-  position: sticky;
-  border-bottom-right-radius: 0;
-  
 
-}
 .legend h4 {
     margin: 0 0 10px;
     /* padding-right: 50px; */
@@ -67,7 +62,7 @@
     
 }
 
-.image{
+.image {
   margin: 0 130px 0;
 }
 

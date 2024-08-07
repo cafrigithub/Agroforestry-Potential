@@ -1,48 +1,48 @@
+.map{
+/*     width: 80%;
+    height: 500px;
+    margin: 0 130px 0;
+    border-style: solid; */
 
-.map {
     position: relative;
     width: 80%;
     height: 500px;
     margin: 0 130px 0;
     border-style: solid;
     display: flex;
-/* justify-content: center; */
+    /* justify-content: center; */
     flex-direction: column;
     align-items: flex-end;
 }
 
 .legend-container {
   /* your legend styles here */
-  margin-top: 10px; /* adjust the top margin */
+  margin-top: 10px; /* adjust the top margin */ 
 }
-
-.add_text2 {
+.add_text2{
   padding: 70px 0;
   text-align: left;
   border:3px solid green;
   text-indent: 30%;
 }
-
 .h4{
     text-align: center;
 }
 .legend {
-    /* position: sticky; */
-    background-color: none;
-    /* border-color: #000000; */
+/*     background-color: #ffffff; */
+    background-color: transparent;
     border-style: solid;
+    
     border-radius: 3px;
-    /* bottom: 70px; */
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     color: #000000 ;
     font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
     padding: 10px;
-    /* position: fixed; */
     position: absolute;
     bottom: 0px;
     right: 0px;
     z-index: 1;
-    /* margin: 0px 200px 40px; */
+/*     margin: 0 200px 40px; */
     
 
     /* text-align: center; */
@@ -62,7 +62,7 @@
     
 }
 
-.image {
+.image{
   margin: 0 130px 0;
 }
 
@@ -94,7 +94,7 @@
     margin-left: -10px;
     border-width: 10px;
     border-style: solid;
-    border-color: #fafafa transparent transparent transparent;
+    border-color: #ff0000 transparent transparent transparent;
   }
 
   .navbar-brand {
@@ -109,14 +109,7 @@
 
   .table, td, th {
     border: 1px solid black;
-   
-  tr td {
-            width: 0%;
-            white-space: nowrap;
-
-        }
   }
-  
   
   table {
     border-collapse: collapse;
@@ -128,8 +121,4 @@
   }
   th {
     text-align: left;
-  }
-.add_text {
-    width: 400px;
-    padding: 40px;
   }
